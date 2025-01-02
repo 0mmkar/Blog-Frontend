@@ -1,0 +1,16 @@
+<div class="blog-container">
+    <h1 class="blog-title">{{ blog.title }}</h1>
+    <p class="blog-content">{{ blog.content }}</p>
+    <p class="blog-date">{{ blog.dateTime }}</p>
+  
+    <div class="comments-section">
+      <h2>Comments:</h2>
+      <ul class="comments-list">
+        <li *ngFor="let comment of comments" class="comment-item">
+          <strong class="comment-author">{{ comment.name }}:</strong>
+          <span class="comment-content">{{ comment.content }}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  

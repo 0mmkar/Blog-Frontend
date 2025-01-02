@@ -1,0 +1,72 @@
+/* Blog container */
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Blog title */
+  .blog-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Blog content */
+  .blog-content {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Blog date */
+  .blog-date {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  /* Comments section */
+  .comments-section {
+    margin-top: 30px;
+  }
+  
+  .comments-section h2 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  /* Comments list */
+  .comments-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .comment-item {
+    padding: 10px;
+    background-color: #fafafa;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Comment author */
+  .comment-author {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  /* Comment content */
+  .comment-content {
+    color: #555;
+    margin-left: 10px;
+    font-style: italic;
+  }
+  

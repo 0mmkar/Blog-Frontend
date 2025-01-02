@@ -1,0 +1,40 @@
+/* Blog list container */
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+    max-width: 800px; /* Set max-width for the list */
+    margin: 20px auto; /* Center the list horizontally */
+  }
+  
+  /* Blog list item */
+  li {
+    background-color: #f9f9f9; /* Light background color for list items */
+    padding: 15px;
+    margin-bottom: 10px; /* Space between items */
+    border-radius: 8px; /* Rounded corners for a cleaner look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effect */
+  }
+  
+  /* Blog link styling */
+  a {
+    text-decoration: none; /* Remove the default underline from links */
+    font-size: 1.2rem; /* Slightly larger font for readability */
+    font-weight: bold;
+    color: #333; /* Dark text color for the link */
+    display: block; /* Make the link fill the entire li item */
+  }
+  
+  /* Hover effect on list item */
+  li:hover {
+    transform: translateY(-5px); /* Lift effect when hovered */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increase the shadow intensity */
+  }
+  
+  /* Hover effect on link */
+  a:hover {
+    color: #007bff; /* Change link color to blue on hover */
+    text-decoration: underline; /* Underline the link when hovered */
+  }
+  
